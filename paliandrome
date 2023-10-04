@@ -1,0 +1,8 @@
+num=input("enter a number")
+rev=num[-1::-1]
+print(rev)
+if(rev==num):
+    print("the number is paliandrom")
+else:
+    print("the number is not paliandrome")
+    
