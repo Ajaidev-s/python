@@ -10,9 +10,12 @@ maxi=max(s)
 print("maximum is",maxi)
 mini=min(s)
 print("manimum is",mini)
-l=['',]
-l=[item for item in s if(item not in l)]
+l=[]
+#l=[item for item in s if(item not in l)]
 for item in s:
     if (item not in l):
-        l=l.append(item)
+        l.append(item)
 print(l)
+
+
+
