@@ -13,3 +13,9 @@ paliandrom without using if
 2,accept a list of characters and convert into a string
 3,find the 2nd smallest number in that list
 4,
+
+
+
+
+not compulsory
+1, accept a list of numbers and display the strongest neighbor of each number
