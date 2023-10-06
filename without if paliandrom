@@ -1,4 +1,4 @@
 #paliandrom or not without 
 s=input("enter a string")
 rev=s[-1::-1]
-bool(rev==s) and print ("the entered string or number is paliandrom")
+(rev==s) and print ("the entered string or number is paliandrom")
