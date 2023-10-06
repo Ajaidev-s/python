@@ -19,3 +19,14 @@ paliandrom without using if
 
 not compulsory
 1, accept a list of numbers and display the strongest neighbor of each number
+
+s1=input("enter the numbers seperated by comma")
+nums=list(map(int,s1.split(",")))
+l=len(nums)
+for i in range(0,l):
+    print("the strongest neighbor of",nums[i],"is ")
+    if(i=0):
+        print(a[1])
+    else if(a[i-1]>a[i] and a[i-1]    
+
+
