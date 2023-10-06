@@ -26,3 +26,12 @@ for i in characters:
 print("the string is",strc)
     
     
+#3
+n=int(input("enter the number of elements"))
+nums=[]
+print("enter the numbers")
+for i in range(1,n+1):
+    item=int(input())
+    nums.append(item)
+new=[item for item in nums if(item>min(nums))]
+print("The 2nd smallest element is",min(new))
