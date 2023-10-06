@@ -1,0 +1,28 @@
+#1,accept a list of words and a number n ,print the words that are longer than n
+#2,accept a list of characters and convert into a string
+#3,find the 2nd smallest number in that list
+#1
+s=input("enter list of word seperated with comma")
+l1=s.split(",")
+n=int(input("input a number"))
+print("the word havinh more than",n,"characters are")
+[print(item) for item in l1 if(len(item)>n)]
+
+
+#2
+n=int(input("enter the number of elements"))
+characters=[]
+for i in range(1,n+1):
+    print("enter the",i,"th character")
+    item=input()
+    l=len(item)
+    while(l!=1):
+        item=input("please enter a single character here")
+        l=len(item)
+    characters.append(item)
+strc=""
+for i in characters:
+    strc=strc+i
+print("the string is",strc)
+    
+    
